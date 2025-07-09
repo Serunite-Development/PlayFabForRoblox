@@ -56,7 +56,7 @@ function PlayFabInternal.MakeApiCall(path: string, requestBody: any, authKey: st
 	}
 
 	if authKey and authValue ~= "" and authValue then
-		headers[authKey] = authValue
+		headers[authKey] = if authKey == "X-SecretKey" then HttpService:GetSecret(authValue) else authValue
 	end
 
 	requestBody.TitleID = Settings.titleId
