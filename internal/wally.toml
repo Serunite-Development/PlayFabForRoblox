@@ -1,9 +1,9 @@
 [package]
-name = "grilme99/playfab-internal"
-description = "Internal package for making API calls and managing PlayFab settings. Do not consume directly."
+name = "serunite-development/playfab-internal"
+description = "Forked version of playfab-internal by Brooke Rhodes to support Secrets. Internal package for making API calls and managing PlayFab settings. Do not consume directly."
 version = "1.0.4"
 license = "MIT"
-authors = ["Brooke Rhodes <brooke@gril.me>"]
+authors = ["Brooke Rhodes <brooke@gril.me>", "noahrepublic"]
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
